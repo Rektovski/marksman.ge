@@ -17,7 +17,6 @@ export default function ErrorPage() {
             clearInterval(intervalId);
             window.location.replace('http://localhost:3000')
         }
-        console.log(countDown);
     }, [countDown]);
 
     return (
