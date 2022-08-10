@@ -1,7 +1,6 @@
 .errorMessage {
-    color: #77d70f;
-    position: absolute;
-    bottom: 0;
+    color: #7ee808;
+    font-weight: bold;
 }
 
 .errorPageBackground {
@@ -11,14 +10,15 @@
     width: 100vw;
 }
 
-.errorPageMainElementStyle {
-    margin-top: 40vh;
+.css-typing {
+    background: rgba(128, 128, 128, 0.25);
+    padding: 10px;
+    font-size: 1rem;
 }
 
 .css-typing p {
-    border-right: .15em solid orange;
+    border-right: .15em solid #77d70f;
     font-family: "Courier", serif;
-    font-size: 14px;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -57,7 +57,7 @@
         width: 0;
     }
     99.9% {
-        border-right: .15em solid orange;
+        border-right: .15em solid #77d70f;
     }
     100% {
         border: none;
@@ -69,7 +69,7 @@
         width: 0;
     }
     99.9% {
-        border-right: .15em solid orange;
+        border-right: .15em solid #77d70f;
     }
     100% {
         border: none;
@@ -84,7 +84,7 @@
         opacity: 1;
     }
     99.9% {
-        border-right: .15em solid orange;
+        border-right: .15em solid #77d70f;
     }
     100% {
         opacity: 1;
@@ -100,7 +100,7 @@
         opacity: 1;
     }
     99.9% {
-        border-right: .15em solid orange;
+        border-right: .15em solid #77d70f;
     }
     100% {
         opacity: 1;
