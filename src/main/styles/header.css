@@ -1,0 +1,93 @@
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgb(154, 154, 154);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0);
+    }
+}
+
+.mainHeaderImage {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    border: transparent;
+    background: white;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+    animation-name: pulse;
+    animation: pulse 3s infinite;
+}
+
+.marginPhotoFromTop {
+    background: black;
+}
+
+.navBar-brand {
+    font-size: 100%;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 50%, rgb(255, 255, 255) 100%);
+}
+
+.Navbar {
+    margin-left: auto;
+}
+
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0 10px;
+    text-align: center;
+    color: antiquewhite;
+    border-bottom: 1px solid #000000;
+    transition: all 0.25s linear;
+    position: relative;
+    text-decoration: none;
+}
+
+.navbar-buttons:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transform-origin: left;
+    transform: scale(0);
+    transition: 0.5s linear;
+}
+
+.navbar-buttons:hover:before {
+    transform: scale(1);
+}
+
+.navbar-buttons:hover {
+    color: #ffffff;
+    background: #d207ff;
+    border-radius: 20px;
+    transition: 1s;
+    padding: 8px 20px 8px 20px;
+    font-size: 1em;
+}
+
+@media (max-width: 720px) {
+    .navbar-buttons {
+        margin: 10px 0 10px 0;
+    }
+}

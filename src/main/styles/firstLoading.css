@@ -1,0 +1,19 @@
+.firstLoading {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 99999;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    background: white;
+}
+
+@media (max-width: 720px) {
+    .loading-image {
+        height: 10rem;
+        width: 10rem;
+    }
+}

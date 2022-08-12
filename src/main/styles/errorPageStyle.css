@@ -1,4 +1,6 @@
 .errorMessage {
+    position: fixed;
+    bottom: 0;
     color: #7ee808;
     font-weight: bold;
 }
@@ -11,7 +13,7 @@
 }
 
 .css-typing {
-    background: rgba(128, 128, 128, 0.25);
+    /*background: rgba(128, 128, 128, 0.25);*/
     padding: 10px;
     font-size: 1rem;
 }

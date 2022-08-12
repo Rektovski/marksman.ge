@@ -1,5 +1,5 @@
 import "../../styles/errorPageStyle.css";
-import errorPageBackground from "../../images/error2.jpg";
+import errorPageBackground from "../../images/errorPageBackground.jpg";
 import {useEffect, useState} from "react";
 
 let intervalId;
