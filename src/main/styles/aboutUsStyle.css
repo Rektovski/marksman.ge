@@ -1,0 +1,45 @@
+@media (min-width: 720px) {
+    .AboutUs {
+        margin-top: 6.4%;
+    }
+}
+
+@media (max-width: 720px) {
+    .AboutUs {
+        margin-top: 23%;
+    }
+}
+
+.aboutUs {
+    background-color: #ffffff;
+}
+
+.aboutUs-Image {
+    width: 100%;
+}
+
+@keyframes smoky {
+    from {
+        text-shadow: 0 0 20px #000000;
+        opacity: 0;
+    }
+    to {
+        text-shadow: 0 0 20px whitesmoke;
+        opacity: 0;
+    }
+}
+
+.about-us-span-smoke-effect{
+    text-shadow: 0 0 0 whitesmoke;
+    animation: smoky 5s infinite;
+}
+
+.about-us-text {
+    text-align: justify;
+}
+
+.about-us-container {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(59,59,59,1) 35%, rgba(50,50,50,1) 100%);
+}
+

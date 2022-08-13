@@ -3,6 +3,9 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import ErrorPage from "./main/components/errorPage/ErrorPage";
 import Header from "./main/components/mainComponents/Header";
 import FirstLoading from "./main/components/otherComponents/FirstLoading";
+import AboutUs from "./main/components/otherComponents/AboutUs";
+import Main from "./main/components/mainComponents/Main";
+import Contacts from "./main/components/otherComponents/contact/Contacts";
 
 export default function App() {
     return (
@@ -11,7 +14,9 @@ export default function App() {
             <BrowserRouter>
                 <Routes>
                     <Route path={'/'} element={<Header/>}>
-                        <Route path={'/footer'} element={''}></Route>
+                        <Route path={'/'} element={<Main/>}></Route>
+                        <Route path={'about'} element={<AboutUs/>}></Route>
+                        <Route path={'/contacts'} element={<Contacts/>}></Route>
                     </Route>
                     <Route path={'*'} element={<ErrorPage/>}></Route>
                 </Routes>

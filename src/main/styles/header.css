@@ -31,9 +31,14 @@
 }
 
 .navBar-brand {
+    display: flex;
+    align-items: center;
     font-size: 100%;
     margin-left: 10px;
     font-weight: bold;
+}
+
+.navBar-brand-text {
     cursor: pointer;
 }
 
@@ -90,4 +95,9 @@
     .navbar-buttons {
         margin: 10px 0 10px 0;
     }
+}
+
+.nav-items {
+    position: fixed;
+    right: 0;
 }
