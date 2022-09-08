@@ -2,7 +2,6 @@ import "../../../styles/contactsStyle.css";
 import {Card} from "react-bootstrap";
 import {AiFillFacebook as Facebook, AiFillYoutube as Youtube, AiOutlineCopy as Copy} from "react-icons/ai";
 import {FaInstagramSquare as Instagram, FaTwitter as Twitter} from "react-icons/fa";
-import Footer from "../../mainComponents/Footer";
 
 export default function ContactCard() {
     return (

@@ -18,6 +18,7 @@ export default function FirstLoading() {
                 ? setCountDown((prevState) => prevState + (timeWhileLoading / 100))
                 : clearInterval(intervalId);
         }, timeWhileLoading / 100);
+        console.log('FirstLoading.js')
     }, [countDown]);
 
     useEffect(() => {

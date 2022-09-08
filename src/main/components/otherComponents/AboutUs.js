@@ -5,13 +5,13 @@ import aboutUsLogoMobile from "../../images/aboutUsLogoMobile.png";
 import Smoke from "../../special effects/Smoke";
 import Footer from "../mainComponents/Footer";
 
-
 export default function AboutUs() {
     const [windowSize, setWindowSize] = useState(getWindowSize());
 
     useEffect(() => {
         const handleWindowResize = () => setWindowSize(getWindowSize());
         window.addEventListener('resize', handleWindowResize);
+        console.log('AboutUs.js');
         return () => window.removeEventListener('resize', handleWindowResize);
     }, []);
 
