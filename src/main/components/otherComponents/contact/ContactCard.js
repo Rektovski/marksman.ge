@@ -17,28 +17,48 @@ export default function ContactCard() {
                         <div id={'marksmanGmail'}>
                             {`Marksmancommunity5@gmail.com`}
                         </div>
-                        <Copy size={40} className={'copy-icon mx-4'} onClick={()=>{
+                        <Copy size={50} className={'copy-icon mx-4'} onClick={() => {
                             window.alert(`Marksman's gmail is copied!`);
                             document.getElementById('marksmanGmail').select();
                         }}/>
                     </div>
                     <div className={'d-flex justify-content-around align-items-center my-3'}>
-                        <Facebook size={40}
-                                  className={'social-icons'}
-                                  onClick={()=>window.location.replace('https://www.facebook.com/Geomarksman')}
-                        />
-                        <Instagram size={40}
-                                   className={'social-icons'}
-                                   onClick={()=>window.location.replace('https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fmarksmancommunity%3Figshid%3DYmMyMTA2M2Y%253D%26fbclid%3DIwAR2w_BLwHSQeUW_Gs2xD5bEkiJ1QZ9Ki6y2MctDJO48-m7F_hWk3HJ_mxxE&h=AT1fc2YSYuQ4tHJl-j20RHEftu8x_Pcbnd7E5DMoGRdMwnBkgo0pKPd7G_YAvIGzZIFZU2wgrE6eSsrs3kUfvXeWTkGRD3qwQhHq1jYQ0cVLDfdUEWoA2sUexfl-_w')}
-                        />
-                        <Twitter size={40}
-                                 className={'social-icons'}
-                                 onClick={()=>window.location.replace('https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2Fchannel%2FUCvFIpoJZtT2I1MALQ1iRLNQ%3Ffbclid%3DIwAR04EDv6hcQIbatdqPRz5uuG_X66gwI6ImfBMkhICZ7AZpstBVqseWHniHM&h=AT1fc2YSYuQ4tHJl-j20RHEftu8x_Pcbnd7E5DMoGRdMwnBkgo0pKPd7G_YAvIGzZIFZU2wgrE6eSsrs3kUfvXeWTkGRD3qwQhHq1jYQ0cVLDfdUEWoA2sUexfl-_w')}
-                        />
-                        <Youtube size={40}
-                                 className={'social-icons'}
-                                 onClick={()=>window.location.replace('https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fmarksmanpwm%3Fs%3D11%26t%3DWV5I1ACCF9q1TzF3wFBMFw%26fbclid%3DIwAR2ZjCuQH1vLf4F9ZYedSR6sMNQfIq9hyPi8Yh4JcasH7Xu-f515H50XF_g&h=AT22qYdHxCf9V-J-64qCXUdLaJ_84tjWYOYi92PbViObvUcPNMlyn2GEDJKyv-mK-vmIz9nTH-ampbJru6KFDRbxsV0bPlwFMfatpQGJWHWiqEpD3GnoxdDbNmWQHcLykpmq-HA7txu3Q1g')}
-                        />
+                        <a
+                            href={'https://www.facebook.com/Geomarksman'}
+                            target={"_blank"}
+                            rel={"noreferrer"}
+                        >
+                            <Facebook size={50}
+                                      className={'social-icons'}
+                            />
+                        </a>
+                        <a
+                            href={'https://bit.ly/3cZP6d7'}
+                            target={"_blank"}
+                            rel={"noreferrer"}
+                        >
+                            <Instagram size={50}
+                                       className={'social-icons'}
+                            />
+                        </a>
+                        <a
+                            href={'https://bit.ly/3Qw9oZA'}
+                            target={"_blank"}
+                            rel={"noreferrer"}
+                        >
+                            <Twitter size={50}
+                                     className={'social-icons'}
+                            />
+                        </a>
+                        <a
+                            href={'https://bit.ly/3QDdq2s'}
+                            target={"_blank"}
+                            rel={"noreferrer"}
+                        >
+                            <Youtube size={50}
+                                     className={'social-icons'}
+                            />
+                        </a>
                     </div>
                 </Card.Body>
             </Card>

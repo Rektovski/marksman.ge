@@ -17,7 +17,8 @@ export default function Header() {
                         />
                     </div>
                     <h3 className={'navBar-brand-text'} onClick={() => {
-                        window.location.replace('http://localhost:3000/')
+                        window.location.reload();
+                        {/*Todo it must go to the main page after domain will done.*/}
                     }}>Marksman</h3>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
