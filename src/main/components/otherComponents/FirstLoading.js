@@ -31,8 +31,8 @@ export default function FirstLoading() {
         <div style={{display: display}} className={'firstLoading'}>
             <img
                 style={{
-                    animation: "spinner-border",
-                    animationDuration: "1s",
+//                     animation: "spinner-border",
+//                     animationDuration: "1s",
                     height: "15rem",
                     width: "15rem",
                 }}
