@@ -17,8 +17,8 @@ export default function App() {
                         <Route path={'/'} element={<Main/>}></Route>
                         <Route path={'about'} element={<AboutUs/>}></Route>
                         <Route path={'/contacts'} element={<Contacts/>}></Route>
+                        <Route path={'*'} element={<ErrorPage/>}></Route>
                     </Route>
-                    <Route path={'*'} element={<ErrorPage/>}></Route>
                 </Routes>
             </BrowserRouter>
         </div>

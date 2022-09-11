@@ -1,0 +1,36 @@
+.mainContent {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    .mainContent {
+        margin-top: 30%;
+    }
+}
+
+.products {
+    background-color: rgba(0,0,0,0.09);
+    border-radius: 20px;
+}
+
+.products-card {
+    box-shadow: #d4ddde 10px 0 10px 0;
+}
+
+@keyframes zooming {
+    0% {
+        scale: 1;
+    }
+    50% {
+        scale: 1.3;
+    }
+    100% {
+        scale: 1;
+    }
+}
+
+.products-card:hover {
+    animation: zooming 3s;
+}
