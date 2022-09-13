@@ -10,7 +10,7 @@ img {
 .ag-smoke-block {
     z-index: 4;
     position: relative;
-    top: -120px;
+    top: -60px;
 }
 .ag-smoke-1 {
     z-index: -1;

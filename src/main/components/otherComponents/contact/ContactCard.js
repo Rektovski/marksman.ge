@@ -29,7 +29,7 @@ export default function ContactCard() {
                             rel={"noreferrer"}
                         >
                             <Facebook size={50}
-                                      className={'social-icons'}
+                                      className={'social-icons1'}
                             />
                         </a>
                         <a
@@ -38,7 +38,7 @@ export default function ContactCard() {
                             rel={"noreferrer"}
                         >
                             <Instagram size={50}
-                                       className={'social-icons'}
+                                       className={'social-icons2'}
                             />
                         </a>
                         <a
@@ -47,7 +47,7 @@ export default function ContactCard() {
                             rel={"noreferrer"}
                         >
                             <Twitter size={50}
-                                     className={'social-icons'}
+                                     className={'social-icons3'}
                             />
                         </a>
                         <a
@@ -56,7 +56,7 @@ export default function ContactCard() {
                             rel={"noreferrer"}
                         >
                             <Youtube size={50}
-                                     className={'social-icons'}
+                                     className={'social-icons4'}
                             />
                         </a>
                     </div>
